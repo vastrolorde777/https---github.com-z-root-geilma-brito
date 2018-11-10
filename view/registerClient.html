@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Hueco Mundo-> by Zroot</title>
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/css/registerClient.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle pull-left">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Administrador</a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Sair</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="main">
+		<div class="menu">
+			<ul>
+				<li class="visible-xs"><a href="">Sair</a></li>
+				<li class="active"><a href="main.html">Painel</a></li>
+				<li><a href="registerUser.html">Cadastrar Usuário</a></li>
+				<li><a href="registerClient.html">Cadastro de Clientes</a></li>
+				<li><a href="#">Cadastrar Equipamentos</a></li>
+				<li><a href="#">Ir para o site</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="container-fluid">
+			
+					
+				<div class="row">
+					<div class="col-md-6">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<h3 class="panel-title">Cadastro de Clientes</h3>
+							</div>
+							<div class="panel-body">
+								<form method="post" action="registerUser.class.php">
+								<table class="table table-hover" style="height: 300px">
+									
+									<tbody>
+										<tr>
+											<td>
+												<select class="form-control">
+												<option>escolha Física/Jurídica</option>
+												<option>Física</option>
+												<option>Jurídica</option>
+												
+											</select>
+											</td>
+											
+										</tr>
+										<tr>
+											<td>
+												<input class="form-control" type="text" name="name" placeholder="Nome">
+											</td>
+											<td>
+												<input class="form-control" type="text" name="cep" placeholder="Cep">
+											</td>
+
+										</tr>
+										<tr>
+											<td>
+											<input class="form-control" type="text" name="cpf_cnpj" placeholder="Cpf/Cnpj">
+											</td>
+											<td>
+												<input class="form-control" type="text" name="endereco" placeholder="Endereço">
+											</td>
+											
+											
+										</tr>
+										<tr>
+											<td>
+												<input class="form-control" type="date" name="data" placeholder="Data Nascimento">
+											</td>
+											<td>
+												<input class="form-control" type="text" name="bairro" placeholder="Bairro">
+											</td>
+											
+										</tr>
+										<tr>
+											<td>
+												<select class="form-control">
+													<option>sexo ...</option>
+													<option>masculino</option>
+													<option>feminino</option>
+													<option>outros</option>
+												</select>
+											</td>
+											<td>
+												<input class="form-control" type="text" name="numero" placeholder="Numero">
+											</td>
+
+										</tr>
+										<tr>
+											<td>
+												<input class="form-control" type="email" name="email" placeholder="email">
+											</td>
+											<td>
+												<input class="form-control" type="text" name="cidade" placeholder="Cidade">
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<input class="form-control" type="text" name="celular" placeholder="Celular">
+											</td>
+											<td>
+												<input class="form-control" type="text" name="estado" placeholder="Estado">
+											</td>
+											
+										</tr>
+
+									
+
+										
+										
+										<tr>
+											<td>
+												<input id="botaoCadastrar" type="submit" value="Cadastrar" class="btn btn-primary form-control">
+											</td>
+											
+										</tr>
+									</tbody>
+								</table>
+							</form>
+							</div>
+						</div>
+					</div>
+
+					
+											
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../assets/js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="../assets/js/script.js"></script>
+</body>
+
+</html>
